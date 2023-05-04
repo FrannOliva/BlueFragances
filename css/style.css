@@ -23,7 +23,6 @@ header{
     font-family: 'Inter', sans-serif;
     font-size: 21px;
     font-weight: normal;
-    position: sticky;
     z-index: 10;
     top: 0;
     height: 100%;
@@ -85,39 +84,83 @@ main{
     font-family: 'Inter', sans-serif;
 }
 
-.inicio{
+.primerImagen{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: black;
     background-image: url(../img/inicio.jpg);
     background-repeat: no-repeat;
-    height: 785px;
+    height: 800px;
     flex-direction: column;
-    /* box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px; */
-    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
 }
 
-.inicio h2{
+.primerImagen h2{
     font-size: 140px;
     color: #f6f5e9;
     font-style: normal;
     font-family: "Belleza";
 }
 
-.inicio p{
+.primerImagen p{
     margin-top: -19px;
     color: #f6f5e9a2;
     font-size: 25px;
     font-weight: 340;
 }
 
-.texto{
-    text-align: center;
+.primerTexto{
+    text-align: justify;
+    font-size: 50px;
+    padding: 0px 70px 0px 70px;
 }
 
-.texto p{
-    font-size: 25px;
-    margin: 0px;
+.primerTexto span{
+    font-weight: bold;
+}
+
+.primerDiv{
+    display: grid;
+    width: 100%;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 500px;
+    grid-template-areas: 
+    "primerTexto primerFoto"
+    ;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+/* ------------------------------------------------------ */
+
+.segundoTexto{
+    text-align: justify;
+    font-size: 50px;
+    padding: 0px 70px 0px 70px;
+    display: flex;
+    align-self: center;
+}
+
+.segundoDiv{
+    display: grid;
+    width: 100%;
+    grid-template-rows: auto;
+    grid-template-columns: 500px 1fr;
+    grid-template-areas: 
+    "segundaFoto segundoTexto"
+    ;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+
+.fraganciasInicio{
+    width: 500px;
+}
+
+.primerDiv{
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .titulo{
@@ -139,7 +182,7 @@ main{
 }
 
 .fragancias div{
-    width: 400px;
+    width: 440px;
     height: auto;
     border: 2px #0e0e0e solid;
     margin: 16px 0px 16px 0px;
@@ -157,8 +200,7 @@ main{
 
 .fragancias div img{
     margin: 1px;
-    width: 320px;
-    height: 300px;
+    width: 400px;
 }
 
 .fragancias div a{
@@ -171,7 +213,7 @@ main{
 
 .fragancias div p{
     text-align: justify;
-    width: 320px;
+    width: 400px;
 }
 
 .preguntas{
