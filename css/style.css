@@ -1,0 +1,219 @@
+/*---------RESET---------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+input{
+    outline: none;
+}
+/*---------HEADER---------*/
+header{
+    background-color: #0e0e0e;
+    color: #f6f5e9;
+    font-family: 'Inter', sans-serif;
+    font-size: 21px;
+    font-weight: normal;
+    position: sticky;
+    z-index: 10;
+    top: 0;
+    height: 100%;
+}
+
+header nav{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+
+.barraNavegacion{
+    display: flex;
+    flex-direction: row;
+}
+
+.barraNavegacion li{
+    padding: 4px 0px 2px 0px;
+    align-items: center;
+    margin-left: 8px;
+    margin-right: 8px;
+    background-color: #f6f5e9;
+    transition: 165ms;
+}
+
+.barraNavegacion li:hover{
+    background-color: #14213d;
+}
+
+.barraNavegacion li a{
+    padding: 6px 16px 6px 16px;
+    color: #0e0e0e;
+    border: 2px solid #0e0e0e;
+}
+
+.barraNavegacion li a:hover{
+    color: #fc5130;
+    border: 2px solid #f6f5e9;
+}
+
+
+
+.isotipo{
+    font-family: 'Belleza', sans-serif;
+    font-size: 80px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+/*(margin, padding) top right bottom left*/
+/*---------MAIN---------*/
+main{
+    background-color: #f6f5e9;
+    color:#0e0e0e;
+    font-family: 'Inter', sans-serif;
+}
+
+.inicio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/inicio.jpg);
+    background-repeat: no-repeat;
+    height: 785px;
+    flex-direction: column;
+    /* box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px; */
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.inicio h2{
+    font-size: 140px;
+    color: #f6f5e9;
+    font-style: normal;
+    font-family: "Belleza";
+}
+
+.inicio p{
+    margin-top: -19px;
+    color: #f6f5e9a2;
+    font-size: 25px;
+    font-weight: 340;
+}
+
+.texto{
+    text-align: center;
+}
+
+.texto p{
+    font-size: 25px;
+    margin: 0px;
+}
+
+.titulo{
+    font-size: 40px;
+    text-align: center;
+    font-style: italic;
+    margin: 0px;
+    padding: 8px 0px 8px 0px;
+}
+
+.fragancias{
+    display: grid;
+    grid-template-rows: auto; /* x */
+    grid-template-columns: repeat(4,1fr); /* y */
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "men ocean sunset night"
+    ;
+}
+
+.fragancias div{
+    width: 400px;
+    height: auto;
+    border: 2px #0e0e0e solid;
+    margin: 16px 0px 16px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    justify-self: center;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+.fragancias div h3{
+    margin: 5px;
+}
+
+.fragancias div img{
+    margin: 1px;
+    width: 320px;
+    height: 300px;
+}
+
+.fragancias div a{
+    background-color: #32cd32;
+    color:#0e0e0e;
+    font-size: 20px;
+    padding: 8px;
+    margin: 8px;
+}
+
+.fragancias div p{
+    text-align: justify;
+    width: 320px;
+}
+
+.preguntas{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.preguntas p{
+    font-size: 22px;
+    font-weight: normal; ;
+}
+
+.comentarios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px #0e0e0e solid;
+    height: auto;
+    width: 300px;
+    padding-bottom: 5px;
+    margin: 8px;
+}
+
+
+/*---------FOOTER---------*/
+footer{
+    font-family: 'Inter', sans-serif;
+    color: #f6f5e9;
+    font-size: 25px;
+    background: rgb(29,25,87);
+    background: linear-gradient(90deg, rgba(29,25,87,1) 0%, rgba(15,76,224,1) 32%, rgba(0,215,255,1) 100%);
+}
+
+/*---------MEDIA---------*/
+
+@media screen and (max-width:771px){
+    .fragancias{
+        background-color: red; 
+        color:#0e0e0e;
+        text-decoration: none;
+        padding: 5px;
+        margin: 10px;
+        }
+    }
