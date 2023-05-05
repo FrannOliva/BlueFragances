@@ -42,54 +42,131 @@
         </nav>
     </header>
     <main>
-        <section class="texto">
-            <h1 class="titulo">PREGUNTAS FRECUENTES</h1>
-            <ul class="preguntas">
-                <li>¿Cómo comprar?</li>
-                <p class="respuestas">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat harum modi
-                    tenetur.</p>
-                <li>¿Porcentaje de alcohol?</li>
-                <p class="respuestas">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat harum modi
-                    tenetur.</p>
-                <li>¿Son ingredientes naturales?</li>
-                <p class="respuestas">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat harum modi
-                    tenetur.</p>
-                <li>¿Cuánto duran las fragancias?</li>
-                <p class="respuestas">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat harum modi
-                    tenetur.</p>
-                <li>¿Son similares a otras fragancias?</li>
-                <p class="respuestas">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat harum modi
-                    tenetur.</p>
-                <li>Forma correcta de aplicación</li>
-                <p class="respuestas">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat harum modi
-                    tenetur.</p>
-            </ul>
-        </section>
+        <h2 class="titulo">PREGUNTAS FRECUENTES</h2>
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                        ¿Cómo comprar?
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        La manera correcta de adquirir nuestras fragancias es comprandolas mediante nuestra página
+                        web,
+                        en la cual van a poder encontrar nuestras fragancias a la venta, junto con una breve
+                        descripción
+                        de la misma.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        ¿Cuanta es la duración en piel?
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        La duración de las fragancias es algo muy importante para nosotros, gracias a nuestras
+                        excelentes materias primas logramos aseguramos de que la duración y estela en piel sean
+                        excelentes, con 2 sprays ya es más que suficiente para que la fragancia perdure como mínimo
+                        unas
+                        8 horas, proyectando constantemente a un metro de distancia, todo dependera de la forma de
+                        aplicación.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        ¿Son ingredientes naturales?
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Sí, manetener la calidad de nuestras materias primas es lo más importante para que podamos
+                        ofrecer productos de la más alta calidad, por lo tanto nos aseguramos de que nuestros
+                        ingredientes sean 100% naturales.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        Cómo puedo almacenar mi fragancia para que tenga una vida útil mas longeva
+                    </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Para que la fragancia perdure en el tiempo lo ideal es realizar lo siguiente:
+                        <ul>
+                            <li>Evitar al máximo los cambios de temperatura en la habitación donde se encuentren, por
+                                ende sería ideal evitar a toda costa almacenarlas en el baño.</li>
+                            <li>
+                                Mantenerlas en un lugar fresco, oscuro y con constante corriente de aire
+                            </li>
+                            <li>
+                                Alejarlas totalmente de los rayos del sol, esto a largo plazo puede dañar el perfume
+                            </li>
+                            <li>
+                                No sobreaplicar, aplicado únicamente dos sprays es más que suficiente.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFive">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                        ¿Cuál es la concentración de alchol?
+                    </button>
+                </h2>
+                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Nosotros realizamos únicamente perfumes <span>Eau de Parfum</span>, lo cual significa que
+                        ulizamos alchol 85° y que las fragancias contendrán un 20% de concentración.
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
     <footer>
         <div class="navFooter">
-            <ul class="tituloFooter">BARRA DE NAVEGACIÓN</ul>
-            <ul><a href="../index.html">Inicio</a></ul>
-            <ul><a href="./nosotros.html">Nosotros</a></ul>
-            <ul><a href="./fragancias.html">Fragancias</a></ul>
-            <ul><a href="./contacto.html">Contacto</a></ul>
-            <ul><a href="./preguntas-frecuentes.html">Preguntas frecuentes</a></ul>
+            <ul>
+                <li class="tituloFooter">BARRA NAVEGACIÓN</li>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="./nosotros.html">Nosotros</a></li>
+                <li><a href="./fragancias.html">Fragancias</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+                <li><a href="./preguntas-frecuentes.html">Preguntas frecuentes</a></li>
+            </ul>
         </div>
         <div class="redesSociales">
-            <ul class="tituloFooter">REDES SOCIALES</ul>
-            <ul><a href="https://www.instagram.com/franoliva22/" target="_blank">Instagram</>
+            <ul>
+                <li class="tituloFooter">REDES SOCIALES</li>
+                <li><a href="https://www.instagram.com/franoliva22/" target="_blank">Instagram</a></li>
+                <li><a href="https://twitter.com/franoliva22" target="_blank">Twitter</a></li>
+                <li><a href="https://www.facebook.com/profile.php?id=100010941151835" target="_blank">Facebook</a></li>
+                <li><a href="https://www.youtube.com/channel/UCDQ9tWgMfkYUB-6Wl8SCXBw" target="_blank">YouTube</a></li>
             </ul>
-            <ul><a href="https://www.facebook.com/profile.php?id=100010941151835" target="_blank">Facebook</a>
-            </ul>
-            <ul><a href="https://twitter.com/franoliva22" target="_blank">Twitter</a>
-            </ul>
-            <ul><a href="https://www.youtube.com/channel/UCDQ9tWgMfkYUB-6Wl8SCXBw" target="_blank">YouTube</a></ul>
         </div>
         <div class="extra">
-            <ul class="tituloFooter">INFORMACIÓN EXTRA</ul>
-            <ul><a href="" target="_blank">Newsletter</a></ul>
-            <ul><a href="" target="_blank">Política de devoluciones</a></ul>
-            <ul><a href="" target="_blank">Botón de arrepentimiento</a></ul>
+            <ul>
+                <li class="tituloFooter">INFORMACIÓN EXTRA</li>
+                <li><a href="" target="_blank">Newsletter</a></li>
+                <li><a href="" target="_blank">Política de devoluciones</a></li>
+                <li><a href="" target="_blank">Botón de arrepentimiento</a></li>
         </div>
         <p>Copyright © Blue Fragances</p>
     </footer>
