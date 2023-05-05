@@ -52,6 +52,9 @@ main{
     font-family: 'Inter', sans-serif;
 }
 
+
+
+/*----INDEX----*/
 .primerImagen{
     display: flex;
     justify-content: center;
@@ -120,6 +123,8 @@ main{
 }
 
 
+
+/*----FRAGANCIAS----*/
 .fraganciasInicio{
     width: 500px;
 }
@@ -243,6 +248,28 @@ main{
 }
 
 
+
+/*----NOSOTROS-----*/
+.texto{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    padding-bottom: 20px;
+}
+
+.texto div{
+    width: 1100px;
+}
+
+.texto div p{
+    font-size: 24px;
+}
+
+/*----PREGUNTAS FRECUENTES----*/
 .preguntas{
     font-size: 32px;
     font-weight: bold;
@@ -279,6 +306,15 @@ footer{
     grid-template-areas: 
     "navFooter redesSociales extra"
     ;
+    place-items: start center;
+}
+
+footer p{
+    margin-left: -300px;
+    margin-top: 30px;
+    font-size: 18px;
+    color: #a0a0a0;
+    position: relative;
 }
 
 footer div ul a{
@@ -290,23 +326,12 @@ footer div ul a:hover{
     color: #f6f5e9 !important;
 }
 
-.navFooter{
+.navFooter, .redesSociales, .extra{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
 }
 
-.redesSociales{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.extra{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
 .tituloFooter{
     color: #f6f5e9;
