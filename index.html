@@ -11,17 +11,34 @@
 </head>
 <body>
     <header>
-        <a href="./index.html">
-            <h1 class="isotipo">BLUE</h1>
-        </a>
-        <nav>
-            <ul class="barraNavegacion">
-                <li><a href="./index.html">INICIO</a></li>
-                <li><a href="./pages/nosotros.html">NOSOTROS</a></li>
-                <li><a href="./pages/fragancias.html">FRAGANCIAS</a></li>
-                <li><a href="./pages/contacto.html">CONTACTO</a></li>
-                <li><a href="./pages/preguntas-frecuentes.html">FAQ</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+            <div class="container-fluid d-flex flex-column">
+                <a class="navbar-brand h1" href="index.html"><img src="./img/BLUE.png" alt="Logotipo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link botonNav" href="index.html">INICIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link botonNav" href="./pages/nosotros.html">NOSOTROS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link botonNav" href="./pages/fragancias.html">FRAGANCIAS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link botonNav" href="./pages/contacto.html">CONTACTO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link botonNav" href="./pages/preguntas-frecuentes.html">PREGUNTAS
+                                FRECUENTES</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
     <main>
@@ -45,14 +62,29 @@
         </section>
     </main>
     <footer>
-        <div>
-            <p>Seguinos en nustras redes sociales</p>
-            <a href="https://www.instagram.com/franoliva22/" target="_blank"><img src="./img/instagram.png"
-                    alt="Ícono de Instagram" />
-                <a href="https://www.facebook.com/profile.php?id=100010941151835" target="_blank"><img
-                        src="./img/face.png" alt="Ícono de Facebook" /></a></a>
-            <a href="https://twitter.com/franoliva22" target="_blank"><img src="./img/twitter.png"
-                    alt="Ícono de Twitter" /></a>
+        <div class="navFooter">
+            <ul class="tituloFooter">BARRA DE NAVEGACIÓN</ul>
+            <ul><a href="index.html">Inicio</a></ul>
+            <ul><a href="./pages/nosotros.html">Nosotros</a></ul>
+            <ul><a href="./pages/fragancias.html">Fragancias</a></ul>
+            <ul><a href="./pages/contacto.html">Contacto</a></ul>
+            <ul><a href="./pages/preguntas-frecuentes.html">Preguntas frecuentes</a></ul>
+        </div>
+        <div class="redesSociales">
+            <ul class="tituloFooter">REDES SOCIALES</ul>
+            <ul><a href="https://www.instagram.com/franoliva22/" target="_blank">Instagram</>
+            </ul>
+            <ul><a href="https://www.facebook.com/profile.php?id=100010941151835" target="_blank">Facebook</a>
+            </ul>
+            <ul><a href="https://twitter.com/franoliva22" target="_blank">Twitter</a>
+            </ul>
+            <ul><a href="https://www.youtube.com/channel/UCDQ9tWgMfkYUB-6Wl8SCXBw" target="_blank">YouTube</a></ul>
+        </div>
+        <div class="extra">
+            <ul class="tituloFooter">INFORMACIÓN EXTRA</ul>
+            <ul><a href="" target="_blank">Newsletter</a></ul>
+            <ul><a href="" target="_blank">Política de devoluciones</a></ul>
+            <ul><a href="" target="_blank">Botón de arrepentimiento</a></ul>
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
