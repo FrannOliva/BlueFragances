@@ -608,16 +608,43 @@ footer div ul li a:hover{
     }
 }
 
-/*!----MEDIA FRAGANCIAS----*/
-
-
-
 /*!----MEDIA CONTACTO----*/
+@media screen and (max-width:1420px){
+    .texto p{
+        width: 1000px;
+    }
+}
 
+@media screen and (max-width:1050px){
+    .texto p{
+        width: 900px;
+    }
+}
+
+@media screen and (max-width:960px){
+    .texto h3{
+        font-size: 20px;
+    }
+    .texto p{
+        width: 700px;
+    }
+}
+
+@media screen and (max-width:785px){
+    .texto p{
+        width: 550px;
+    }
+}
+
+@media screen and (max-width:585px){
+    .texto p{
+        width: 340px;
+    }
+}
 
 
 /*!----MEDIA PREGUNTAS FRECUENTES----*/
 
 
-
+/*!----MEDIA FRAGANCIAS----*/
 
