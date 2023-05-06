@@ -48,27 +48,33 @@
             <p>Si tenés alguna duda, sugerencia o cualquier comentario que desees hacernos, te proveémos nuestoros
                 canales de contacto y nuestro equipo se contactará con vos lo antes posible. </p>
         </section>
-        <section>
-            <div class="comentarios">
-                <h3>¡Dejá tu comentario!</h3>
-                <div>
-                    <label for="nombre">Nombre:</label>
-                    <input type="text" name="nombre" id="nombre">
-                </div>
-                <div>
-                    <label for="apellido">Apellido:</label>
-                    <input type="text" name="apellido" id="apellido">
-                </div>
-                <div>
-                    <label for="email">Email</label>
-                    <input type="email" name="email" id="email">
-                </div>
-                <div>
-                    <textarea name="" id="" cols="30" rows="10"></textarea>
-                </div>
-                <div>
-                    <input type="submit">
-                    <input type="reset">
+        <section class="formularioContacto d-flex justify-content-center">
+            <div class="card col-sm-6 p-3">
+                <div class="mb-2">
+                    <form action="">
+                        <div class="mb-2">
+                            <label for="nombre">Nombre:</label>
+                            <input class="form-control" type="text" name="nombre" id="nombre" placeholder="Ej. José">
+                        </div>
+                        <div class="mb-2">
+                            <label for="apellido">Apellido:</label>
+                            <input class="form-control" type="text" name="apellido" id="apellido"
+                                placeholder="Ej. Pérez">
+                        </div>
+                        <div class="mb-2">
+                            <label for="correo">Correo electrónico:</label>
+                            <input class="form-control" type="text" name="correo" id="correo"
+                                placeholder="Ej. joseperez@tumail.com" required>
+                        </div>
+                        <div class="mb-2">
+                            <label for="mensaje">Tu mensaje:</label>
+                            <textarea name="mensaje" id="mensaje" placeholder="Escribe tu mensaje..." cols="30"
+                                rows="10" class="form-control"></textarea>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <button class="btn">ENVIAR</button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </section>
