@@ -276,8 +276,21 @@ main{
     padding-bottom: 20px;
 }
 
+.textoPre{
+    width: 1100px;
+}
+.accordion-button{
+    background-color: #f6f5e9;
+}
+
+.accordion-collapse, .accordion-body, .accordion-button{
+    background-color: #f6f5e9 !important;
+    color: #0e0e0e !important;
+}
+
 .accordion-item{
     width: 1100px;
+    background-color: #f6f5e9;
 }
 
 .accordion-header button{
@@ -326,14 +339,6 @@ footer{
     place-items: start center;
 }
 
-footer p{
-    margin-left: -300px;
-    margin-top: 30px;
-    font-size: 18px;
-    color: #a0a0a0;
-    position: relative;
-}
-
 footer div ul li a{
     color: #a0a0a0 !important;
     transition: 300ms;
@@ -355,14 +360,264 @@ footer div ul li a:hover{
     margin-bottom: 8px;
 }
 
-/*---------MEDIA---------*/
-
-@media screen and (max-width:771px){
-    .fragancias{
-        background-color: red; 
-        color:#0e0e0e;
-        text-decoration: none;
-        padding: 5px;
-        margin: 10px;
-        }
+/*!----MEDIA GENERAL----*/
+@media screen and (max-width:1150px){
+    .titulo{
+        font-size: 30px;
     }
+}
+
+/*!---------MEDIA INDEX---------*/
+
+@media screen and (max-width:1300px){
+    .primerTexto, .segundoTexto{
+        font-size: 30px;
+        padding: 0px 30px 0px 30px;
+    }
+}
+
+@media screen and (max-width:1150px){
+    .primerDiv{
+        grid-template-columns: 1fr 300px;
+    }
+
+    .segundoDiv{
+        grid-template-columns: 300px 1fr;
+    }
+
+    .fraganciasInicio{
+        width: 300px;
+    }
+}
+
+@media screen and (max-width:991px){
+    .primerImagen{
+        height: 500px;
+        width: auto;
+    }
+
+    .primerImagen h2{
+        font-size: 100px;
+    }
+
+    .primerImagen p{
+        font-size: 20px;
+    }
+
+    .primerTexto, .segundoTexto{
+        font-size: 25px;
+        padding: 0px 40px 0px 40px
+    }
+
+    .primerDiv{
+        grid-template-columns: 1fr 250px;
+    }
+
+    .segundoDiv{
+        grid-template-columns: 250px 1fr;
+    }
+
+    .fraganciasInicio{
+        width: 250px;
+    }
+
+    footer{
+        font-size: 15px;
+        padding-top: 15px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    header{
+        font-size: 15px;
+    }
+
+    header nav a img{
+        width: 120px;
+    }
+    
+}
+
+@media screen and (max-width:700px){
+    .primerImagen{
+        display: none;
+    }
+    
+    .primerTexto, .segundoTexto{
+        font-size: 18px;
+        padding: 0px 50px 0px 50px;
+    }
+
+    .primerDiv{
+        grid-template-columns: 1fr 200px;
+    }
+
+    .segundoDiv{
+        grid-template-columns: 200px 1fr;
+    }
+
+    .fraganciasInicio{
+        width: 200px;
+    }
+}
+
+@media screen and (max-width:550px){
+    .primerTexto, .segundoTexto{
+        font-size: 16px;
+        padding: 0px 20px 0px 20px;
+    }
+
+    .primerDiv{
+        grid-template-columns: 1fr 150px;
+    }
+
+    .segundoDiv{
+        grid-template-columns: 150px 1fr;
+    }
+
+    .fraganciasInicio{
+        width: 150px;
+    }
+}
+
+@media screen and (max-width:450px){
+    header{
+        font-size: 12px;
+    }
+
+    header nav a img{
+        width: 100px;
+    }
+
+    .primerTexto, .segundoTexto{
+        font-size: 14px;
+        padding: 0px 18px 0px 18px;
+    }
+
+    .primerDiv{
+        grid-template-columns: 1fr 120px;
+    }
+
+    .segundoDiv{
+        grid-template-columns: 120px 1fr;
+    }
+
+    .fraganciasInicio{
+        width: 120px;
+    }
+
+    footer{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:400px){
+    header{
+        font-size: 10px;
+    }
+
+    header nav a img{
+        width: 90px;
+    }
+
+    .primerTexto, .segundoTexto{
+        font-size: 12px;
+        padding: 0px 20px 0px 20px;
+    }
+}
+
+/*!----MEDIA NOSOTROS----*/
+
+@media screen and (max-width:1150px){
+    .texto div{
+        width: 900px;
+    }
+
+    .texto div p{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:991px){
+    .texto div{
+        width: 870px;
+    }
+
+    .texto div p{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:900px){
+    .titulo{
+        font-size: 22px;
+    }
+
+    .texto div{
+        width: 800px;
+    }
+
+    .texto div p{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:820px){
+    .texto div{
+        width: 700px;
+    }
+
+    .texto div p{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:720px){
+    .texto div{
+        width: 550px;
+    }
+}
+
+@media screen and (max-width:580px){
+    .texto div{
+        width: 450px;
+    }
+
+    .texto div p{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:480px){
+    .texto div{
+        width: 400px;
+    }
+
+    .texto div p{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:430px){
+    .texto div{
+        width: 300px;
+    }
+
+    .texto div p{
+        font-size: 18px;
+    }
+}
+
+/*!----MEDIA FRAGANCIAS----*/
+
+
+
+/*!----MEDIA CONTACTO----*/
+
+
+
+/*!----MEDIA PREGUNTAS FRECUENTES----*/
+
+
+
+
