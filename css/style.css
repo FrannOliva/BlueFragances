@@ -68,7 +68,7 @@ main{
     font-size: 140px;
     color: #f6f5e9;
     font-style: normal;
-    font-family: 'Belleza';
+    font-family: 'Belleza', sans-serif;
 }
 
 .primerImagen p{
