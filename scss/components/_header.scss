@@ -1,0 +1,28 @@
+header{
+    background-color: #0e0e0e;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    nav{
+        justify-content: space-between;
+        div{
+            a{
+                img{
+                    width: 148px;
+                }
+            }
+            div{
+                ul{
+                    li{
+                        a{
+                            color: #f6f5e9 !important;
+                            &:hover{
+                                color: #FFB400 !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

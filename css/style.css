@@ -20,7 +20,7 @@ input{
 span{
     font-weight: bold;
 }
-/*---------HEADER---------*/
+/*---------HEADER---------*/ /*! Agregado a scss */
 header{
     background-color: #0e0e0e;
     font-family: 'Inter', sans-serif;
@@ -32,11 +32,11 @@ header nav{
     justify-content: space-between;
 }
 
-header nav a{
+header nav div div ul li a{
     color: #f6f5e9 !important;
 }
 
-header nav a:hover{
+header nav div div ul li a:hover{
     color: #FFB400 !important;
 }
 
@@ -44,14 +44,14 @@ header nav a img{
     width: 148px;
 }
 
-/*---------MAIN---------*/
+/*---------MAIN---------*/ /*! Agregado a scss */
 main{
     background-color: #f6f5e9;
     color:#0e0e0e;
     font-family: 'Inter', sans-serif;
 }
 
-/*----INDEX----*/
+/*----INDEX----*/ /*! Agregado a scss */
 .primerImagen{
     display: flex;
     justify-content: center;
@@ -79,16 +79,6 @@ main{
     font-weight: 340;
 }
 
-.primerTexto{
-    text-align: justify;
-    font-size: 40px;
-    padding: 0px 70px 0px 70px;
-}
-
-.primerTexto span{
-    font-weight: bold;
-}
-
 .primerDiv{
     display: grid;
     width: 100%;
@@ -98,7 +88,17 @@ main{
     "primerTexto primerFoto"
     ;
     box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
+
+.primerTexto{
+    text-align: justify;
+    font-size: 40px;
+    padding: 0px 70px 0px 70px;
+}
+
 
 .segundoTexto{
     text-align: justify;
@@ -119,19 +119,12 @@ main{
     box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
-
-
-/*----FRAGANCIAS----*/
 .fraganciasInicio{
     width: 500px;
 }
 
-.primerDiv{
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-}
-
+/*!!! FALTA DE ACÁ PARA ABAJO !!!*/
+/*----FRAGANCIAS----*/
 .titulo{
     font-size: 40px;
     text-align: center;
@@ -323,7 +316,7 @@ main{
     color: #f6f5e9;
 }
 
-/*---------FOOTER---------*/
+/*---------FOOTER---------*/ /*! Agregado a scss */
 footer{
     padding-top: 20px;
     font-family: 'Inter', sans-serif;
