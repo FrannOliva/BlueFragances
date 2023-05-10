@@ -213,6 +213,8 @@ main {
           text-align: justify;
           background-color: #f6f5e9 !important;
           color: #0e0e0e !important; }
+          main .accordion .accordion-item .accordion-collapse .accordion-body ul li {
+            list-style: disc; }
 
 footer {
   padding-top: 20px;

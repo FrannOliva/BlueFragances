@@ -312,6 +312,10 @@ main{
     text-align: justify;
 }
 
+.accordion-body ul li{
+    list-style: disc;
+}
+
 .accordion-collapse, .accordion-body, .accordion-button{
     background-color: #f6f5e9 !important;
     color: #0e0e0e !important;
@@ -642,7 +646,59 @@ footer div ul li a:hover{
 
 
 /*!----MEDIA PREGUNTAS FRECUENTES----*/
+@media screen and (max-width:1180px){
+    .accordion-item{
+        width: 900px;
+    }
+}
 
+@media screen and (max-width:1000px){
+    .accordion-item{
+        width: 750px;
+    }
+
+    .accordion-body{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:800px){
+    .accordion-item{
+        width: 600px;
+    }
+
+    .accordion-body{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:630px){
+    .accordion-item{
+        width: 500px;
+    }
+
+    .accordion-body{
+        font-size: 15px;
+    }
+
+    .accordion-header button{
+    font-size: 22px;
+}
+}
+
+@media screen and (max-width:520px){
+    .accordion-item{
+        width: 300px;
+    }
+
+    .accordion-body{
+        font-size: 14px;
+    }
+
+    .accordion-header button{
+    font-size: 18px;
+}
+}
 
 /*!----MEDIA FRAGANCIAS----*/
 

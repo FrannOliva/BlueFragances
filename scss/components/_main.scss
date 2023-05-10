@@ -230,6 +230,11 @@ main{
                     text-align: justify;
                     background-color: #f6f5e9 !important;
                     color: #0e0e0e !important;
+                    ul{
+                        li{
+                            list-style: disc;
+                        }
+                    }
                 }
             }
         }
