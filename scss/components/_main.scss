@@ -66,4 +66,172 @@ main{
             width: 500px;
         }
     }
+    .titulo{
+        font-size: 40px;
+        text-align: center;
+        font-style: italic;
+        margin: 0px;
+        padding: 8px 0px 8px 0px;
+    }
+    .newCollection{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+            width: 1200px;
+            margin-bottom: 20px;
+        }
+    }
+    .fragancias{
+        display: grid;
+        grid-template-rows: auto; /* x */
+        grid-template-columns: repeat(4,1fr); /* y */
+        grid-template-rows: 1fr;
+        grid-template-areas: 
+        "men ocean sunset night"
+        ;
+        .divPerfumes{
+            width: 440px;
+            height: auto;
+            border: 2px #0e0e0e solid;
+            margin: 16px 0px 16px 0px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            justify-self: center;
+            box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+            h3{
+                margin: 5px;
+            }
+            .perfumes{
+                margin: 1px;
+                width: 400px;
+            }
+            a{
+                background-color: #32dd32;
+                color:#0e0e0e;
+                font-size: 21px;
+                padding: 8px;
+                margin: 8px;
+                transition: 300ms;
+                &:hover{
+                    background-color: #26ff26;
+                    color: #0e0e0e;
+                }
+            }
+            p{
+                text-align: justify;
+                width: 400px;
+            }
+        }
+        .men{
+            position: relative;
+        }
+        .night{
+            position: relative;
+        }
+        .new{
+            position: absolute;
+            top: 20px;
+            right: 0;
+        }
+    }
+    .gold{
+        margin-top: 50px;
+        padding-bottom: 50px;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        h3{
+            font-size: 70px;
+            font-style: bold;
+            margin: 0px;
+            padding: 8px 0px 8px 0px;
+        }
+        img{
+            width: 1300px;
+        }
+        div{
+            width: 1300px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            font-size: 20px;
+        }
+    }
+    .texto{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+        padding-bottom: 20px;
+        .textoPre{
+            width: 1100px;
+        }
+        div{
+            width: 1100px;
+            p{
+                font-size: 24px;
+            }
+        }
+    }
+    .formularioContacto{
+        padding-bottom: 20px;
+        .card{
+            background-color: #f6f5e9;
+            border: #0e0e0e solid 2px;
+            div{
+                form{
+                    div{
+                        .btn{
+                            border: #0e0e0e solid 2px;
+                            color: #0e0e0e;
+                            &:hover{
+                                background-color: #0e0e0e;
+                                color: #f6f5e9;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .accordion{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 45px;
+        .accordion-item{
+            width: 1100px;
+            background-color: #f6f5e9;
+            .accordion-header{
+                .accordion-button{
+                    font-size: 26px;
+                    font-weight: bold;
+                    background-color: #f6f5e9;
+                    background-color: #f6f5e9 !important;
+                    color: #0e0e0e !important;
+                }
+            }
+            .accordion-collapse{
+                background-color: #f6f5e9 !important;
+                color: #0e0e0e !important;
+                .accordion-body{
+                    font-size: 22px;
+                    font-weight: normal;
+                    text-align: justify;
+                    background-color: #f6f5e9 !important;
+                    color: #0e0e0e !important;
+                }
+            }
+        }
+    }
 }

@@ -20,7 +20,7 @@ input{
 span{
     font-weight: bold;
 }
-/*---------HEADER---------*/ /*! Agregado a scss */
+/*---------HEADER---------*/
 header{
     background-color: #0e0e0e;
     font-family: 'Inter', sans-serif;
@@ -44,14 +44,14 @@ header nav a img{
     width: 148px;
 }
 
-/*---------MAIN---------*/ /*! Agregado a scss */
+/*---------MAIN---------*/
 main{
     background-color: #f6f5e9;
     color:#0e0e0e;
     font-family: 'Inter', sans-serif;
 }
 
-/*----INDEX----*/ /*! Agregado a scss */
+/*----INDEX----*/
 .primerImagen{
     display: flex;
     justify-content: center;
@@ -123,7 +123,6 @@ main{
     width: 500px;
 }
 
-/*!!! FALTA DE ACÁ PARA ABAJO !!!*/
 /*----FRAGANCIAS----*/
 .titulo{
     font-size: 40px;
@@ -179,6 +178,7 @@ main{
     justify-self: center;
     box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
 }
+
 
 .divPerfumes h3{
     margin: 5px;
@@ -238,7 +238,6 @@ main{
 }
 
 
-
 /*----NOSOTROS-----*/
 .texto{
     width: 100%;
@@ -257,44 +256,6 @@ main{
 
 .texto div p{
     font-size: 24px;
-}
-
-/*----PREGUNTAS FRECUENTES----*/
-.accordion{
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 20px;
-}
-
-.textoPre{
-    width: 1100px;
-}
-.accordion-button{
-    background-color: #f6f5e9;
-}
-
-.accordion-collapse, .accordion-body, .accordion-button{
-    background-color: #f6f5e9 !important;
-    color: #0e0e0e !important;
-}
-
-.accordion-item{
-    width: 1100px;
-    background-color: #f6f5e9;
-}
-
-.accordion-header button{
-    font-size: 26px;
-    font-weight: bold;
-}
-
-.accordion-body{
-    font-size: 22px;
-    font-weight: normal;
-    text-align: justify;
 }
 
 /*----CONTACTO----*/
@@ -316,7 +277,48 @@ main{
     color: #f6f5e9;
 }
 
-/*---------FOOTER---------*/ /*! Agregado a scss */
+/*----PREGUNTAS FRECUENTES----*/
+.textoPre{
+    width: 1100px;
+}
+
+.accordion{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 45px;
+}
+
+.accordion-button{
+    background-color: #f6f5e9;
+}
+
+
+.accordion-item{
+    width: 1100px;
+    background-color: #f6f5e9;
+}
+
+.accordion-header button{
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.accordion-body{
+    font-size: 22px;
+    font-weight: normal;
+    text-align: justify;
+}
+
+.accordion-collapse, .accordion-body, .accordion-button{
+    background-color: #f6f5e9 !important;
+    color: #0e0e0e !important;
+}
+
+
+/*---------FOOTER---------*/
 footer{
     padding-top: 20px;
     font-family: 'Inter', sans-serif;
@@ -352,6 +354,9 @@ footer div ul li a:hover{
     color: #f6f5e9;
     margin-bottom: 8px;
 }
+
+/*!!! DE ACÁ PARA ABAJO !!!*/
+
 
 /*!----MEDIA GENERAL----*/
 @media screen and (max-width:1150px){
