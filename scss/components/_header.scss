@@ -1,5 +1,5 @@
 header{
-    background-color: #0e0e0e;
+    background-color: $colorBlack;
     font-family: 'Inter', sans-serif;
     font-size: 18px;
     font-weight: normal;
@@ -15,9 +15,9 @@ header{
                 ul{
                     li{
                         a{
-                            color: #f6f5e9 !important;
+                            color: $colorWhite !important;
                             &:hover{
-                                color: #FFB400 !important;
+                                color: $colorOrange !important;
                             }
                         }
                     }

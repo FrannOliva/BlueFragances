@@ -1,6 +1,6 @@
 main{
-    background-color: #f6f5e9;
-    color:#0e0e0e;
+    background-color: $colorWhite;
+    color:$colorBlack;
     font-family: 'Inter', sans-serif;
     .primerImagen{
         display: flex;
@@ -14,7 +14,7 @@ main{
         box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
         h2{
             font-size: 140px;
-            color: #f6f5e9;
+            color: $colorWhite;
             font-style: normal;
             font-family: 'Belleza', sans-serif;
         }
@@ -84,8 +84,7 @@ main{
     }
     .fragancias{
         display: grid;
-        grid-template-rows: auto; /* x */
-        grid-template-columns: repeat(4,1fr); /* y */
+        grid-template-columns: repeat(4,1fr);
         grid-template-rows: 1fr;
         grid-template-areas: 
         "men ocean sunset night"
@@ -93,7 +92,7 @@ main{
         .divPerfumes{
             width: 440px;
             height: auto;
-            border: 2px #0e0e0e solid;
+            border: 2px $colorBlack solid;
             margin: 16px 0px 16px 0px;
             display: flex;
             flex-direction: column;
@@ -109,15 +108,15 @@ main{
                 width: 400px;
             }
             a{
-                background-color: #32dd32;
-                color:#0e0e0e;
+                background-color: $colorGreen;
+                color:$colorBlack;
                 font-size: 21px;
                 padding: 8px;
                 margin: 8px;
                 transition: 300ms;
                 &:hover{
                     background-color: #26ff26;
-                    color: #0e0e0e;
+                    color: $colorBlack;
                 }
             }
             p{
@@ -184,17 +183,17 @@ main{
     .formularioContacto{
         padding-bottom: 20px;
         .card{
-            background-color: #f6f5e9;
-            border: #0e0e0e solid 2px;
+            background-color: $colorWhite;
+            border: $colorBlack solid 2px;
             div{
                 form{
                     div{
                         .btn{
-                            border: #0e0e0e solid 2px;
-                            color: #0e0e0e;
+                            border: $colorBlack solid 2px;
+                            color: $colorBlack;
                             &:hover{
-                                background-color: #0e0e0e;
-                                color: #f6f5e9;
+                                background-color: $colorBlack;
+                                color: $colorWhite;
                             }
                         }
                     }
@@ -211,25 +210,25 @@ main{
         padding-bottom: 45px;
         .accordion-item{
             width: 1100px;
-            background-color: #f6f5e9;
+            background-color: $colorWhite;
             .accordion-header{
                 .accordion-button{
                     font-size: 26px;
                     font-weight: bold;
-                    background-color: #f6f5e9;
-                    background-color: #f6f5e9 !important;
-                    color: #0e0e0e !important;
+                    background-color: $colorWhite;
+                    background-color: $colorWhite !important;
+                    color: $colorBlack !important;
                 }
             }
             .accordion-collapse{
-                background-color: #f6f5e9 !important;
-                color: #0e0e0e !important;
+                background-color: $colorWhite !important;
+                color: $colorBlack !important;
                 .accordion-body{
                     font-size: 22px;
                     font-weight: normal;
                     text-align: justify;
-                    background-color: #f6f5e9 !important;
-                    color: #0e0e0e !important;
+                    background-color: $colorWhite !important;
+                    color: $colorBlack !important;
                     ul{
                         li{
                             list-style: disc;

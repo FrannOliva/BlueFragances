@@ -1,9 +1,9 @@
 footer{
     padding-top: 20px;
     font-family: 'Inter', sans-serif;
-    color: #f6f5e9;
+    color: $colorWhite;
     font-size: 20px;
-    background-color: #0e0e0e;
+    background-color: $colorBlack;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: 1fr;
@@ -13,7 +13,7 @@ footer{
     place-items: start center;
     .navFooter, .redesSociales, .extra{
         .tituloFooter{
-            color: #f6f5e9;
+            color: $colorWhite;
             margin-bottom: 8px;
         }
         li{
@@ -21,7 +21,7 @@ footer{
                 color: #a0a0a0 !important;
                 transition: 300ms;
                 &:hover{
-                    color: #f6f5e9 !important;
+                    color: $colorWhite !important;
                 }
             }
         }

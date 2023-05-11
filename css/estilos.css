@@ -98,10 +98,7 @@ main {
       margin-bottom: 20px; }
   main .fragancias {
     display: grid;
-    grid-template-rows: auto;
-    /* x */
     grid-template-columns: repeat(4, 1fr);
-    /* y */
     grid-template-rows: 1fr;
     grid-template-areas: "men ocean sunset night"; }
     main .fragancias .divPerfumes {
