@@ -130,14 +130,14 @@ main {
       main .fragancias .divPerfumes p {
         text-align: justify;
         width: 400px; }
-    main .fragancias .men {
-      position: relative; }
-    main .fragancias .night {
+    main .fragancias .men, main .fragancias .night, main .fragancias .goldMin {
       position: relative; }
     main .fragancias .new {
       position: absolute;
       top: 20px;
       right: 0; }
+    main .fragancias .goldMin {
+      display: none; }
   main .gold {
     margin-top: 50px;
     padding-bottom: 50px;

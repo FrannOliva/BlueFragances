@@ -124,16 +124,16 @@ main{
                 width: 400px;
             }
         }
-        .men{
-            position: relative;
-        }
-        .night{
+        .men, .night, .goldMin{
             position: relative;
         }
         .new{
             position: absolute;
             top: 20px;
             right: 0;
+        }
+        .goldMin{
+            display: none;
         }
     }
     .gold{

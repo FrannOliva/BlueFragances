@@ -158,11 +158,7 @@ main{
     right: 0;
 }
 
-.men{
-    position: relative;
-}
-
-.night{
+.men, .night, .goldMin{
     position: relative;
 }
 
@@ -237,6 +233,9 @@ main{
     font-size: 20px;
 }
 
+.goldMin{
+    display: none;
+}
 
 /*----NOSOTROS-----*/
 .texto{
@@ -859,30 +858,19 @@ footer div ul li a:hover{
 }
 
 @media screen and (max-width:520px){
+    .divPerfumes{
+        box-shadow: none;
+    }
 
     .newCollection{
         display: none;
     }
-
     .gold{
-        margin-top: 6px;
-        padding-bottom: 6px;
+        display: none;
     }
 
-    .gold h3{
-        font-size: 32px;
-    }
-
-    .gold div p{
-        font-size: 15px;
-    }
-    
-    .gold img{
-        width: 400px;
-    }
-
-    .gold div{
-        width: 400px;
+    .goldMin{
+        display: inline-flex;
     }
 }
 
@@ -899,21 +887,5 @@ footer div ul li a:hover{
     }
     .perfumes{
         width: 260px;
-    }
-
-    .gold h3{
-        font-size: 30px;
-    }
-
-    .gold div p{
-        font-size: 14px;
-    }
-    
-    .gold img{
-        width: 300px;
-    }
-
-    .gold div{
-        width: 300px;
     }
 }
