@@ -1,0 +1,737 @@
+@media screen and (max-width: 1800px){
+    main{
+        .fragancias{
+            grid-template-columns: repeat(2,1fr); /* y */
+            grid-template-rows: repeat (2,1fr);
+            grid-template-areas: 
+            "men ocean"
+            "sunset night"
+        ;
+        }
+    }
+}
+
+@media screen and (max-width: 1500px){
+    main{
+        .newCollection{
+            img{
+            width: 1000px;
+            }
+        }
+        .gold{
+            img{
+                width: 1000px
+            }
+            div{
+                width: 1000px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1420px){
+    main{
+        .texto{
+            p{
+                width: 1000px;
+            }
+        }
+        .texto{
+            .textoPre{
+                width: 1000px;
+            }
+        }
+        .texto{
+            div{
+                width: 1000px;
+                p{
+                    width: 1000px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1300px){
+    main{
+        .presentacionFragancias{
+            .primerDiv{
+                .primerTexto{
+                    font-size: 30px;
+                    padding: 0px 30px 0px 30px;
+                }
+            }
+            .segundoDiv{
+                .segundoTexto{
+                    font-size: 30px;
+                    padding: 0px 30px 0px 30px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1180px){
+    main{
+        .accordion{
+            .accordion-item{
+                width: 900px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1170px){
+    main{
+        .newCollection{
+            img{
+                width: 900px;
+            }
+        }
+        .fragancias{
+            .divPerfumes{
+                width: 360px;
+                a{
+                    font-size: 18px;
+                }
+                p{
+                    width: 300px;
+                }
+                .perfumes{
+                    width: 300px;
+                }
+            }
+        }
+        .gold{
+            margin-top: 20px;
+            padding-bottom: 20px;
+            img{
+                width: 900px;
+            }
+            div{
+                width: 900px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1150px){
+    main{
+        .titulo{
+            font-size: 30px;
+        }
+        .texto{
+            .titulo{
+                font-size: 30px;
+            }
+        }
+        .presentacionFragancias{
+            .primerDiv{
+                grid-template-columns: 1fr 300px;
+                img{
+                    width: 300px;
+                }
+            }
+            .segundoDiv{
+                grid-template-columns: 300px 1fr;
+                img{
+                    width: 300px;
+                }
+            }
+        }
+        .texto{
+            div{
+                width: 900px;
+                p{
+                    font-size: 18px;
+                    width: 900px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1050px){
+    main{
+        .texto{
+            p{
+                width: 880px;
+            }
+            div{
+                p{
+                    width: 880px;
+                }
+            }
+        }
+        .texto{
+            .textoPre{
+                width: 900px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1000px){
+    main{
+        .accordion{
+            .accordion-item{
+                width: 750px;
+                .collapse{
+                    .accordion-body{
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 991px){
+    main{
+        .primerImagen{
+            height: 500px;
+            width: auto;
+            h2{
+                font-size: 100px;
+            }
+            p{
+                font-size: 20px;
+            }
+        }
+        .presentacionFragancias{
+            .primerDiv{
+                grid-template-columns: 1fr 250px;
+                .primerTexto{
+                    font-size: 25px;
+                    padding: 0px 40px 0px 40px
+                }
+                img{
+                    width: 250px;
+                }
+            }
+            .segundoDiv{
+                grid-template-columns: 250px 1fr;
+                .segundoTexto{
+                    font-size: 25px;
+                    padding: 0px 40px 0px 40px
+                }
+                img{
+                    width: 250px;
+                }
+            }
+        }
+        .texto{
+            div{
+                width: 870px;
+                p{
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+    footer{
+        font-size: 15px;
+        padding-top: 15px;
+    }
+}
+
+@media screen and (max-width: 960px){
+    main{
+        .texto{
+            h3{
+                font-size: 20px;
+            }
+            p{
+                width: 700px;
+            }
+        }
+        .texto{
+            .textoPre{
+                width: 700px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 950px){
+    main{
+        .newCollection{
+            img{
+                width: 800px;
+            }
+        }
+        .fragancias{
+            .divPerfumes{
+                width: 350px;
+                p{
+                    width: 290px;
+                }
+                .perfumes{
+                    width: 290px;
+                }
+            }
+        }
+        .gold{
+            margin-top: 15px;
+            padding-bottom: 15px;
+            img{
+                width: 800px;
+            }
+            div{
+                width: 800px;
+            }
+        }
+        .texto{
+            div{
+                width: 840px;
+                p{
+                    font-size: 16px;
+                    width: 840px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 900px){
+    main{
+        .texto{
+            .titulo{
+                font-size: 22px;
+            }
+        }
+        .texto{
+            div{
+                width: 800px;
+                .titulo{
+                    font-size: 22px;
+                }
+                p{
+                    width: 800px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 850px){
+    main{
+        .newCollection{
+            img{
+                width: 700px;
+            }
+        }
+        .fragancias{
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr;
+            grid-template-areas: 
+            "men"
+            "ocean"
+            "sunset"
+            "night";
+            .divPerfumes{
+                width: 340px;
+                p{
+                    width: 280px;
+                }
+                .perfumes{
+                    width: 280px;
+                }
+            }
+        }
+        .gold{
+            margin-top: 11px;
+            padding-bottom: 11px;
+            img{
+                width: 700px;
+            }
+            div{
+                width: 700px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 820px){
+    main{
+        .texto{
+            div{
+                width: 700px;
+                p{
+                    font-size: 15px;
+                    width: 700px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 800px){
+    header{
+        font-size: 15px;
+        nav{
+            div{
+                a{
+                    img{
+                        width: 120px;
+                    }
+                }
+            }
+        }
+    }
+    main{
+        .accordion{
+            .accordion-item{
+                width: 600px;
+                .collapse{
+                    .accordion-body{
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+    }
+
+@media screen and (max-width:785px){
+    main{
+        .texto{
+            p{
+                width: 550px;
+            }
+        }
+        .texto{
+            .textoPre{
+                width: 550px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:750px){
+    main{
+        .newCollection{
+            img{
+                width: 500px;
+            }
+        }
+        .gold{
+            margin-top: 8px;
+            padding-bottom: 8px;
+            h3{
+                font-size: 40px;
+            }
+            img{
+                width: 500px;
+            }
+            div{
+                width: 500px;
+                p{
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:720px){
+    main{
+        .texto{
+            div{
+                width: 550px;
+                p{
+                    width: 550px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:700px){
+    main{
+        .primerImagen{
+            display: none;
+        }
+        .presentacionFragancias{
+            .primerDiv{
+                grid-template-columns: 1fr 200px;
+                .primerTexto{
+                    font-size: 18px;
+                    padding: 0px 50px 0px 50px;
+                }
+                img{
+                    width: 200px;
+                }
+            }
+            .segundoDiv{
+                grid-template-columns: 200px 1fr;
+                .segundoTexto{
+                    font-size: 18px;
+                    padding: 0px 50px 0px 50px;
+                }
+                img{
+                    width: 200px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:630px){
+    main{
+        .accordion{
+            .accordion-item{
+                width: 500px;
+                .accordion-header{
+                    .accordion-button{
+                        font-size: 22px;
+                    }
+                }
+                .collapse{
+                    .accordion-body{
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:585px){
+    main{
+        .texto{
+            p{
+                width: 400px;
+            }
+        }
+        .texto{
+            .textoPre{
+                width: 400px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:580px){
+    main{
+        .texto{
+            div{
+                width: 450px;
+                p{
+                    font-size: 14px;
+                    width: 450px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:550px){
+    main{
+        .presentacionFragancias{
+            .primerDiv{
+                grid-template-columns: 1fr 150px;
+                .primerTexto{
+                    font-size: 16px;
+                    padding: 0px 20px 0px 20px;
+                }
+                img{
+                    width: 150px;
+                }
+            }
+            .segundoDiv{
+                grid-template-columns: 150px 1fr;
+                .segundoTexto{
+                    font-size: 16px;
+                    padding: 0px 20px 0px 20px;
+                }
+                img{
+                    width: 150px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:520px){
+    main{
+        .accordion{
+            .accordion-item{
+                width: 380px;
+                .accordion-header{
+                    .accordion-button{
+                        font-size: 20px;
+                    }
+                }
+                div{
+                    .accordion-body{
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+        .newCollection{
+            display: none;
+        }
+        .fragancias{
+            .divPerfumes{
+                box-shadow: none;
+            }
+            .goldMin{
+                display: inline-flex;
+            }
+        }
+        .gold{
+            display: none;
+        }
+    }
+}
+
+@media screen and (max-width:480px){
+    main{
+        .texto{
+            div{
+                width: 400px;
+                p{
+                    font-size: 16px;
+                    width: 400px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:450px){
+    header{
+        font-size: 12px;
+        nav{
+            div{
+                a{
+                    img{
+                        width: 100px;
+                    }
+                }
+            }
+        }
+    }
+    main{
+        .texto{
+            p{
+                width: 340px;
+            }
+        }
+        .texto{
+            .textoPre{
+                width: 340px;
+            }
+        }
+        .accordion{
+            .accordion-item{
+                width: 340px;
+                .accordion-header{
+                    .accordion-button{
+                        font-size: 16px;
+                    }
+                }
+                div{
+                    .accordion-body{
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+        .presentacionFragancias{
+            .primerDiv{
+                grid-template-columns: 1fr 120px;
+                .primerTexto{
+                    font-size: 14px;
+                    padding: 0px 18px 0px 18px;
+                }
+                img{
+                    width: 120px;
+                }
+            }
+            .segundoDiv{
+                grid-template-columns: 120px 1fr;
+                .segundoTexto{
+                    font-size: 14px;
+                    padding: 0px 18px 0px 18px;
+                }
+                img{
+                    width: 120px;
+                }
+            }
+        }
+        .fragancias{
+            .divPerfumes{
+                width: 330px;
+                a{
+                    font-size: 14px;
+                }
+                p{
+                    width: 260px;
+                }
+                .perfumes{
+                    width: 260px;
+                }
+            }
+        }
+    }
+    footer{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:430px){
+    main{
+        .texto{
+            div{
+                width: 300px;
+                p{
+                    font-size: 18px;
+                    width: 300px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:400px){
+    header{
+        font-size: 10px;
+        nav{
+            div{
+                a{
+                    img{
+                        width: 90px;
+                    }
+                }
+            }
+        }
+    }
+    main{
+        .presentacionFragancias{
+            .primerDiv{
+                .primerTexto{
+                    font-size: 12px;
+                    padding: 0px 20px 0px 20px;
+                }
+            }
+            .segundoDiv{
+                .segundoTexto{
+                    font-size: 12px;
+                    padding: 0px 20px 0px 20px;
+                }
+            }
+        }
+        .texto{
+            div{
+                margin: 0px;
+                width: 290px;
+                p{
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}

@@ -232,3 +232,369 @@ footer {
     transition: 300ms; }
     footer .navFooter li a:hover, footer .redesSociales li a:hover, footer .extra li a:hover {
       color: #f6f5e9 !important; }
+
+@media screen and (max-width: 1800px) {
+  main .fragancias {
+    grid-template-columns: repeat(2, 1fr);
+    /* y */
+    grid-template-rows: repeat 2, 1fr;
+    grid-template-areas: "men ocean" "sunset night"; } }
+
+@media screen and (max-width: 1500px) {
+  main .newCollection img {
+    width: 1000px; }
+  main .gold img {
+    width: 1000px; }
+  main .gold div {
+    width: 1000px; } }
+
+@media screen and (max-width: 1420px) {
+  main .texto p {
+    width: 1000px; }
+  main .texto .textoPre {
+    width: 1000px; }
+  main .texto div {
+    width: 1000px; }
+    main .texto div p {
+      width: 1000px; } }
+
+@media screen and (max-width: 1300px) {
+  main .presentacionFragancias .primerDiv .primerTexto {
+    font-size: 30px;
+    padding: 0px 30px 0px 30px; }
+  main .presentacionFragancias .segundoDiv .segundoTexto {
+    font-size: 30px;
+    padding: 0px 30px 0px 30px; } }
+
+@media screen and (max-width: 1180px) {
+  main .accordion .accordion-item {
+    width: 900px; } }
+
+@media screen and (max-width: 1170px) {
+  main .newCollection img {
+    width: 900px; }
+  main .fragancias .divPerfumes {
+    width: 360px; }
+    main .fragancias .divPerfumes a {
+      font-size: 18px; }
+    main .fragancias .divPerfumes p {
+      width: 300px; }
+    main .fragancias .divPerfumes .perfumes {
+      width: 300px; }
+  main .gold {
+    margin-top: 20px;
+    padding-bottom: 20px; }
+    main .gold img {
+      width: 900px; }
+    main .gold div {
+      width: 900px; } }
+
+@media screen and (max-width: 1150px) {
+  main .titulo {
+    font-size: 30px; }
+  main .texto .titulo {
+    font-size: 30px; }
+  main .presentacionFragancias .primerDiv {
+    grid-template-columns: 1fr 300px; }
+    main .presentacionFragancias .primerDiv img {
+      width: 300px; }
+  main .presentacionFragancias .segundoDiv {
+    grid-template-columns: 300px 1fr; }
+    main .presentacionFragancias .segundoDiv img {
+      width: 300px; }
+  main .texto div {
+    width: 900px; }
+    main .texto div p {
+      font-size: 18px;
+      width: 900px; } }
+
+@media screen and (max-width: 1050px) {
+  main .texto p {
+    width: 880px; }
+  main .texto div p {
+    width: 880px; }
+  main .texto .textoPre {
+    width: 900px; } }
+
+@media screen and (max-width: 1000px) {
+  main .accordion .accordion-item {
+    width: 750px; }
+    main .accordion .accordion-item .collapse .accordion-body {
+      font-size: 18px; } }
+
+@media screen and (max-width: 991px) {
+  main .primerImagen {
+    height: 500px;
+    width: auto; }
+    main .primerImagen h2 {
+      font-size: 100px; }
+    main .primerImagen p {
+      font-size: 20px; }
+  main .presentacionFragancias .primerDiv {
+    grid-template-columns: 1fr 250px; }
+    main .presentacionFragancias .primerDiv .primerTexto {
+      font-size: 25px;
+      padding: 0px 40px 0px 40px; }
+    main .presentacionFragancias .primerDiv img {
+      width: 250px; }
+  main .presentacionFragancias .segundoDiv {
+    grid-template-columns: 250px 1fr; }
+    main .presentacionFragancias .segundoDiv .segundoTexto {
+      font-size: 25px;
+      padding: 0px 40px 0px 40px; }
+    main .presentacionFragancias .segundoDiv img {
+      width: 250px; }
+  main .texto div {
+    width: 870px; }
+    main .texto div p {
+      font-size: 16px; }
+  footer {
+    font-size: 15px;
+    padding-top: 15px; } }
+
+@media screen and (max-width: 960px) {
+  main .texto h3 {
+    font-size: 20px; }
+  main .texto p {
+    width: 700px; }
+  main .texto .textoPre {
+    width: 700px; } }
+
+@media screen and (max-width: 950px) {
+  main .newCollection img {
+    width: 800px; }
+  main .fragancias .divPerfumes {
+    width: 350px; }
+    main .fragancias .divPerfumes p {
+      width: 290px; }
+    main .fragancias .divPerfumes .perfumes {
+      width: 290px; }
+  main .gold {
+    margin-top: 15px;
+    padding-bottom: 15px; }
+    main .gold img {
+      width: 800px; }
+    main .gold div {
+      width: 800px; }
+  main .texto div {
+    width: 840px; }
+    main .texto div p {
+      font-size: 16px;
+      width: 840px; } }
+
+@media screen and (max-width: 900px) {
+  main .texto .titulo {
+    font-size: 22px; }
+  main .texto div {
+    width: 800px; }
+    main .texto div .titulo {
+      font-size: 22px; }
+    main .texto div p {
+      width: 800px; } }
+
+@media screen and (max-width: 850px) {
+  main .newCollection img {
+    width: 700px; }
+  main .fragancias {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "men" "ocean" "sunset" "night"; }
+    main .fragancias .divPerfumes {
+      width: 340px; }
+      main .fragancias .divPerfumes p {
+        width: 280px; }
+      main .fragancias .divPerfumes .perfumes {
+        width: 280px; }
+  main .gold {
+    margin-top: 11px;
+    padding-bottom: 11px; }
+    main .gold img {
+      width: 700px; }
+    main .gold div {
+      width: 700px; } }
+
+@media screen and (max-width: 820px) {
+  main .texto div {
+    width: 700px; }
+    main .texto div p {
+      font-size: 15px;
+      width: 700px; } }
+
+@media screen and (max-width: 800px) {
+  header {
+    font-size: 15px; }
+    header nav div a img {
+      width: 120px; }
+  main .accordion .accordion-item {
+    width: 600px; }
+    main .accordion .accordion-item .collapse .accordion-body {
+      font-size: 16px; } }
+
+@media screen and (max-width: 785px) {
+  main .texto p {
+    width: 550px; }
+  main .texto .textoPre {
+    width: 550px; } }
+
+@media screen and (max-width: 750px) {
+  main .newCollection img {
+    width: 500px; }
+  main .gold {
+    margin-top: 8px;
+    padding-bottom: 8px; }
+    main .gold h3 {
+      font-size: 40px; }
+    main .gold img {
+      width: 500px; }
+    main .gold div {
+      width: 500px; }
+      main .gold div p {
+        font-size: 15px; } }
+
+@media screen and (max-width: 720px) {
+  main .texto div {
+    width: 550px; }
+    main .texto div p {
+      width: 550px; } }
+
+@media screen and (max-width: 700px) {
+  main .primerImagen {
+    display: none; }
+  main .presentacionFragancias .primerDiv {
+    grid-template-columns: 1fr 200px; }
+    main .presentacionFragancias .primerDiv .primerTexto {
+      font-size: 18px;
+      padding: 0px 50px 0px 50px; }
+    main .presentacionFragancias .primerDiv img {
+      width: 200px; }
+  main .presentacionFragancias .segundoDiv {
+    grid-template-columns: 200px 1fr; }
+    main .presentacionFragancias .segundoDiv .segundoTexto {
+      font-size: 18px;
+      padding: 0px 50px 0px 50px; }
+    main .presentacionFragancias .segundoDiv img {
+      width: 200px; } }
+
+@media screen and (max-width: 630px) {
+  main .accordion .accordion-item {
+    width: 500px; }
+    main .accordion .accordion-item .accordion-header .accordion-button {
+      font-size: 22px; }
+    main .accordion .accordion-item .collapse .accordion-body {
+      font-size: 15px; } }
+
+@media screen and (max-width: 585px) {
+  main .texto p {
+    width: 400px; }
+  main .texto .textoPre {
+    width: 400px; } }
+
+@media screen and (max-width: 580px) {
+  main .texto div {
+    width: 450px; }
+    main .texto div p {
+      font-size: 14px;
+      width: 450px; } }
+
+@media screen and (max-width: 550px) {
+  main .presentacionFragancias .primerDiv {
+    grid-template-columns: 1fr 150px; }
+    main .presentacionFragancias .primerDiv .primerTexto {
+      font-size: 16px;
+      padding: 0px 20px 0px 20px; }
+    main .presentacionFragancias .primerDiv img {
+      width: 150px; }
+  main .presentacionFragancias .segundoDiv {
+    grid-template-columns: 150px 1fr; }
+    main .presentacionFragancias .segundoDiv .segundoTexto {
+      font-size: 16px;
+      padding: 0px 20px 0px 20px; }
+    main .presentacionFragancias .segundoDiv img {
+      width: 150px; } }
+
+@media screen and (max-width: 520px) {
+  main .accordion .accordion-item {
+    width: 380px; }
+    main .accordion .accordion-item .accordion-header .accordion-button {
+      font-size: 20px; }
+    main .accordion .accordion-item div .accordion-body {
+      font-size: 14px; }
+  main .newCollection {
+    display: none; }
+  main .fragancias .divPerfumes {
+    box-shadow: none; }
+  main .fragancias .goldMin {
+    display: inline-flex; }
+  main .gold {
+    display: none; } }
+
+@media screen and (max-width: 480px) {
+  main .texto div {
+    width: 400px; }
+    main .texto div p {
+      font-size: 16px;
+      width: 400px; } }
+
+@media screen and (max-width: 450px) {
+  header {
+    font-size: 12px; }
+    header nav div a img {
+      width: 100px; }
+  main .texto p {
+    width: 340px; }
+  main .texto .textoPre {
+    width: 340px; }
+  main .accordion .accordion-item {
+    width: 340px; }
+    main .accordion .accordion-item .accordion-header .accordion-button {
+      font-size: 16px; }
+    main .accordion .accordion-item div .accordion-body {
+      font-size: 12px; }
+  main .presentacionFragancias .primerDiv {
+    grid-template-columns: 1fr 120px; }
+    main .presentacionFragancias .primerDiv .primerTexto {
+      font-size: 14px;
+      padding: 0px 18px 0px 18px; }
+    main .presentacionFragancias .primerDiv img {
+      width: 120px; }
+  main .presentacionFragancias .segundoDiv {
+    grid-template-columns: 120px 1fr; }
+    main .presentacionFragancias .segundoDiv .segundoTexto {
+      font-size: 14px;
+      padding: 0px 18px 0px 18px; }
+    main .presentacionFragancias .segundoDiv img {
+      width: 120px; }
+  main .fragancias .divPerfumes {
+    width: 330px; }
+    main .fragancias .divPerfumes a {
+      font-size: 14px; }
+    main .fragancias .divPerfumes p {
+      width: 260px; }
+    main .fragancias .divPerfumes .perfumes {
+      width: 260px; }
+  footer {
+    font-size: 10px; } }
+
+@media screen and (max-width: 430px) {
+  main .texto div {
+    width: 300px; }
+    main .texto div p {
+      font-size: 18px;
+      width: 300px; } }
+
+@media screen and (max-width: 400px) {
+  header {
+    font-size: 10px; }
+    header nav div a img {
+      width: 90px; }
+  main .presentacionFragancias .primerDiv .primerTexto {
+    font-size: 12px;
+    padding: 0px 20px 0px 20px; }
+  main .presentacionFragancias .segundoDiv .segundoTexto {
+    font-size: 12px;
+    padding: 0px 20px 0px 20px; }
+  main .texto div {
+    margin: 0px;
+    width: 290px; }
+    main .texto div p {
+      font-size: 14px; } }
