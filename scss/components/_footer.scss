@@ -19,9 +19,10 @@ footer{
         li{
             a{
                 color: #a0a0a0 !important;
-                transition: 300ms;
+                transition: 330ms;
                 &:hover{
                     color: $colorWhite !important;
+                    font-size: 20.4px;
                 }
             }
         }

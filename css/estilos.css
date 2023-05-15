@@ -229,9 +229,10 @@ footer {
     margin-bottom: 8px; }
   footer .navFooter li a, footer .redesSociales li a, footer .extra li a {
     color: #a0a0a0 !important;
-    transition: 300ms; }
+    transition: 330ms; }
     footer .navFooter li a:hover, footer .redesSociales li a:hover, footer .extra li a:hover {
-      color: #f6f5e9 !important; }
+      color: #f6f5e9 !important;
+      font-size: 20.4px; }
 
 @media screen and (max-width: 1800px) {
   main .fragancias {
