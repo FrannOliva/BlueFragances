@@ -43,7 +43,7 @@ main {
     height: 850px;
     flex-direction: column;
     box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px; }
-    main .primerImagen h2 {
+    main .primerImagen h1 {
       font-size: 140px;
       color: #f6f5e9;
       font-style: normal;
@@ -159,6 +159,11 @@ main {
       flex-direction: row;
       justify-content: space-between;
       font-size: 20px; }
+    main .gold a {
+      color: #0e0e0e;
+      transition: 300ms; }
+      main .gold a:hover {
+        color: #FFB400; }
   main .texto {
     width: 100%;
     height: auto;
