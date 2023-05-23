@@ -100,7 +100,7 @@ main{
             align-items: center;
             justify-self: center;
             box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
-            h3{
+            h2{
                 margin: 5px;
             }
             .perfumes{
@@ -144,7 +144,7 @@ main{
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        h3{
+        h2{
             font-size: 70px;
             font-style: bold;
             margin: 0px;
@@ -223,19 +223,18 @@ main{
                     font-size: 26px;
                     font-weight: bold;
                     background-color: $colorWhite;
-                    background-color: $colorWhite !important;
-                    color: $colorBlack !important;
+                    color: $colorBlack;
                 }
             }
             .accordion-collapse{
-                background-color: $colorWhite !important;
-                color: $colorBlack !important;
+                background-color: $colorWhite;
+                color: $colorBlack;
                 .accordion-body{
                     font-size: 22px;
                     font-weight: normal;
                     text-align: justify;
-                    background-color: $colorWhite !important;
-                    color: $colorBlack !important;
+                    background-color: $colorWhite;
+                    color: $colorBlack;
                     ul{
                         li{
                             list-style: disc;

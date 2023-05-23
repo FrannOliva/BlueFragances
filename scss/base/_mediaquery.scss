@@ -1,7 +1,7 @@
 @media screen and (max-width: 1800px){
     main{
         .fragancias{
-            grid-template-columns: repeat(2,1fr); /* y */
+            grid-template-columns: repeat(2,1fr);
             grid-template-rows: repeat (2,1fr);
             grid-template-areas: 
             "men ocean"
@@ -231,7 +231,6 @@
     }
     footer{
         font-size: 15px;
-        padding-top: 15px;
     }
 }
 

@@ -1,5 +1,6 @@
 footer{
-    padding-top: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     font-family: 'Inter', sans-serif;
     color: $colorWhite;
     font-size: 20px;
@@ -18,10 +19,10 @@ footer{
         }
         li{
             a{
-                color: #a0a0a0 !important;
+                color: #a0a0a0;
                 transition: 330ms;
                 &:hover{
-                    color: $colorWhite !important;
+                    color: $colorWhite;
                     font-size: 20.4px;
                 }
             }
