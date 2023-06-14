@@ -58,13 +58,13 @@
             .primerDiv{
                 .primerTexto{
                     font-size: 30px;
-                    padding: 0px 30px 0px 30px;
+                    padding: 0px 100px 0px 100px;
                 }
             }
             .segundoDiv{
                 .segundoTexto{
                     font-size: 30px;
-                    padding: 0px 30px 0px 30px;
+                    padding: 0px 100px 0px 100px;
                 }
             }
         }
@@ -131,11 +131,19 @@
                 img{
                     width: 300px;
                 }
+                .primerTexto{
+                    font-size: 26px;
+                    padding: 0px 80px 0px 80px;
+                }
             }
             .segundoDiv{
                 grid-template-columns: 300px 1fr;
                 img{
                     width: 300px;
+                }
+                .segundoTexto{
+                    font-size: 26px;
+                    padding: 0px 80px 0px 80px;
                 }
             }
         }
@@ -201,22 +209,22 @@
         .presentacionFragancias{
             .primerDiv{
                 grid-template-columns: 1fr 250px;
-                .primerTexto{
-                    font-size: 25px;
-                    padding: 0px 40px 0px 40px
-                }
                 img{
                     width: 250px;
+                }
+                .primerTexto{
+                    font-size: 22px;
+                    padding: 0px 60px 0px 60px;
                 }
             }
             .segundoDiv{
                 grid-template-columns: 250px 1fr;
-                .segundoTexto{
-                    font-size: 25px;
-                    padding: 0px 40px 0px 40px
-                }
                 img{
                     width: 250px;
+                }
+                .segundoTexto{
+                    font-size: 22px;
+                    padding: 0px 60px 0px 60px;
                 }
             }
         }
@@ -389,6 +397,28 @@
                 }
             }
         }
+        .presentacionFragancias{
+            .primerDiv{
+                grid-template-columns: 1fr 200px;
+                .primerTexto{
+                    font-size: 18px;
+                    padding: 0px 50px 0px 50px;
+                }
+                img{
+                    width: 200px;
+                }
+            }
+            .segundoDiv{
+                grid-template-columns: 200px 1fr;
+                .segundoTexto{
+                    font-size: 18px;
+                    padding: 0px 50px 0px 50px;
+                }
+                img{
+                    width: 200px;
+                }
+            }
+        }
     }
     }
 
@@ -449,14 +479,22 @@
 @media screen and (max-width:700px){
     main{
         .primerImagen{
-            display: none;
+            background-image: none;
+            height: 400px;
+            h1{
+                font-size: 80px;
+            }
+            p{
+                font-size: 18px;
+                margin-bottom: 0px;
+            }
         }
         .presentacionFragancias{
             .primerDiv{
                 grid-template-columns: 1fr 200px;
                 .primerTexto{
-                    font-size: 18px;
-                    padding: 0px 50px 0px 50px;
+                    font-size: 15px;
+                    padding: 0px 40px 0px 40px;
                 }
                 img{
                     width: 200px;
@@ -465,8 +503,8 @@
             .segundoDiv{
                 grid-template-columns: 200px 1fr;
                 .segundoTexto{
-                    font-size: 18px;
-                    padding: 0px 50px 0px 50px;
+                    font-size: 15px;
+                    padding: 0px 40px 0px 40px;
                 }
                 img{
                     width: 200px;
@@ -527,11 +565,20 @@
 
 @media screen and (max-width:550px){
     main{
+        .primerImagen{
+            height: 200px;
+            h1{
+                font-size: 50px;
+            }
+            p{
+                font-size: 12px;
+            }
+        }
         .presentacionFragancias{
             .primerDiv{
                 grid-template-columns: 1fr 150px;
                 .primerTexto{
-                    font-size: 16px;
+                    font-size: 12px;
                     padding: 0px 20px 0px 20px;
                 }
                 img{
@@ -541,7 +588,7 @@
             .segundoDiv{
                 grid-template-columns: 150px 1fr;
                 .segundoTexto{
-                    font-size: 16px;
+                    font-size: 12px;
                     padding: 0px 20px 0px 20px;
                 }
                 img{
@@ -639,12 +686,22 @@
                 }
             }
         }
+        .primerImagen{
+            height: 120px;
+            h1{
+                font-size: 40px;
+            }
+            p{
+                font-size: 9px;
+                margin-top: -10px;
+            }
+        }
         .presentacionFragancias{
             .primerDiv{
                 grid-template-columns: 1fr 120px;
                 .primerTexto{
-                    font-size: 14px;
-                    padding: 0px 18px 0px 18px;
+                    font-size: 10px;
+                    padding: 0px 16px 0px 16px;
                 }
                 img{
                     width: 120px;
@@ -653,8 +710,8 @@
             .segundoDiv{
                 grid-template-columns: 120px 1fr;
                 .segundoTexto{
-                    font-size: 14px;
-                    padding: 0px 18px 0px 18px;
+                    font-size: 10px;
+                    padding: 0px 16px 0px 16px;
                 }
                 img{
                     width: 120px;
@@ -709,17 +766,28 @@
         }
     }
     main{
+        .primerImagen{
+            height: 100px;
+            h1{
+                font-size: 35px;
+            }
+            p{
+                font-size: 7px;
+                margin-bottom: 0px;
+                margin-top: -12px;
+            }
+        }
         .presentacionFragancias{
             .primerDiv{
                 .primerTexto{
-                    font-size: 12px;
-                    padding: 0px 20px 0px 20px;
+                    font-size: 10px;
+                    padding: 0px 16px 0px 16px;
                 }
             }
             .segundoDiv{
                 .segundoTexto{
-                    font-size: 12px;
-                    padding: 0px 20px 0px 20px;
+                    font-size: 10px;
+                    padding: 0px 16px 0px 16px;
                 }
             }
         }
